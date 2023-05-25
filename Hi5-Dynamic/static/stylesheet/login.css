@@ -43,3 +43,6 @@ body {
   button:hover {
     background-color: #45a049;
   }  
+  p {
+    text-align: center;
+  }
