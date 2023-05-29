@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <header>
+    <h1>User Profile</h1>
+  </header>
+
+  <main>
+    <div class="profile-picture">
+      <img src="profile-picture.jpg" alt="Profile Picture">
+      <input type="file" id="profile-picture-input">
+      <button onclick="uploadProfilePicture()">Upload Picture</button>
+    </div>
+
+    <div class="bio">
+      <h2>Bio</h2>
+      <textarea id="bio-textarea"></textarea>
+      <button onclick="updateBio()">Save Bio</button>
+    </div>
+
+    <a href="settings.html">Go to Profile Settings</a>
+  </main>
+
+  <script src="profile.js"></script>
+</body>
+</html>
