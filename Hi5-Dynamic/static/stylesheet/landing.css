@@ -38,3 +38,9 @@ footer ul {
 footer ul li {
     margin: 0 10px;
 }
+
+main {
+    color: darkgreen;
+    display:flex;
+    justify-content: center;
+}
