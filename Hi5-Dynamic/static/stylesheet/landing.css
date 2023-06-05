@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+hi {
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
