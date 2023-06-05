@@ -1,21 +1,23 @@
 /* styles.css */
 
 body {
-    margin: 0;
-    padding: 0;
+    display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
-hi {
-    text-align: center;
-}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
+    background-color: dodgerblue;
 }
-
+/*
 nav ul {
     list-style: none;
     display: flex;
@@ -48,3 +50,4 @@ main {
     display:flex;
     justify-content: center;
 }
+*/
