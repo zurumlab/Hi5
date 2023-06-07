@@ -29,11 +29,17 @@ header {
 }
 
 .container-2 > div {
- /*   align-items: center;*/
+   /* background-color: #f1f1f1;*/
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center;
+    display: block;
 }
 
-nav ul li {
-    margin: 0 10px;
+.container-3 > div {
+    justify-content: right;
+    display: block;
 }
 
 footer {
