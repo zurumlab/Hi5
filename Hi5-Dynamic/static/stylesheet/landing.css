@@ -9,12 +9,17 @@ body {
     margin-left: 0px;
 }
 
+main {
+    color: darkgreen;
+    /*display:flex;*/
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: content-box;
-    padding: 0px;
+    padding: 20px;
     background-color: dodgerblue;
 }
 
@@ -24,14 +29,10 @@ header {
 }
 
 .container-1 {
-  background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  /*justify-content: left;*/
   display: block;
-  width: 100px;
-  /*float: inline-start;*/
 }
 
 .container-2 {
@@ -39,23 +40,21 @@ header {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    /*justify-content: center;*/
     display: block;
-    flex-grow: 1;
 }
 
 .container-3 {
-    /*justify-content: right;*/
     display: block;
+    padding: 20px;
     width: 100px;
+}
+
+.dropdown {
+    width: 200px;
+    padding: 10px;
 }
 
 footer {
     background-color: #f2f2f2;
     padding: 20px;
-}
-
-main {
-    color: darkgreen;
-    display:flex;
 }
