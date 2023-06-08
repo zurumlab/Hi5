@@ -1,0 +1,59 @@
+.chat-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: aqua;
+  }
+  
+  .chat-threads-container {
+    flex: 1;
+    max-width: 200px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    color: blue;
+  }
+  
+  .message-container {
+    flex: 3;
+    padding-left: 10px;
+    color: brown;
+  }
+  
+  #selected-thread {
+    margin-bottom: 10px;
+    color: darkred;
+  }
+  
+  .input-container {
+    margin-top: 10px;
+    color: goldenrod;
+  }
+  
+  #message-input {
+    width: 70%;
+    padding: 5px;
+    color: lightskyblue;
+  }
+  
+  #send-button {
+    width: 25%;
+    padding: 5px;
+    background-color: darkolivegreen;
+  }
+  
+  .thread-item {
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: gold;
+  }
+  
+  .thread-item.active {
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    color: lawngreen;
+  }  
