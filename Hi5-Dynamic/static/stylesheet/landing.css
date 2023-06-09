@@ -1,62 +1,56 @@
-/* styles.css */
-
 body {
-    display: inherit;
-    background-image: url("like.jpg");
+    margin: 0;
+    padding: 0;
+    background-image: url("conn.jpg");
     background-size: cover;
-    margin: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-main {
-    color: darkgreen;
-    /*display:flex;*/
-}
-
-header {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: content-box;
-    padding: 20px;
-    background-color: burlywood;
-}
+  }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-1 {
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  display: block;
-}
-
-.container-2 {
-   /* background-color: #f1f1f1;*/
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    display: block;
-}
-
-.container-3 {
-    display: block;
-    padding: 20px;
-    width: 100px;
-}
-
-.dropdown {
-    width: 200px;
-    padding: 10px;
-}
-
-footer {
-    background-color: lightgoldenrodyellow;
-    padding: 20px;
-}
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .project-info {
+    text-align: center;
+  }
+  
+  .project-info h1 {
+    font-size: 32px;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 50px 0;
+  }  
